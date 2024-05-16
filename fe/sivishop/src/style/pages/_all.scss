@@ -14,8 +14,16 @@ body{
 .container {
      max-width: 1170px;
      width: 100%;
-     padding-left: 100px;
-     padding-right: 100px;
-     background: map.get($theme-color,"main" );
+     padding-left: 15px;
+     padding-right: 15px;
+    //     background: map.get($theme-color,"main" );
      margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6{
+  flex: 0 0 50%;
+  max-width: 50%;
 }
